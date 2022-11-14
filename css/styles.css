@@ -699,6 +699,85 @@ body{
     align-items: center;
     justify-content: center;
 } 
+.footer-form {
+}
+
+.footer-input-label {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--acent-text-color);
+}
+.footer-input-label span {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.input-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-input {
+    width: 358px;
+    height: 50px;
+    transition: fill 250ms linear;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    padding-left: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    outline: transparent;
+    background-color: transparent;
+}
+
+.footer-input::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-button {
+    width: 200px;
+    height: 50px;
+    
+    padding: 0;
+    margin: 0 auto;
+    display: block;
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: var(--acent-text-color);
+    background-color: #2196F3;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    border: none;
+    cursor: pointer;
+    margin-left: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.modal-send {
+    fill: var(--acent-text-color);
+    margin-left: 10px;
+}
+
 
 /* MODAL  */
 
@@ -775,7 +854,6 @@ body{
     color: var(--title-text-color);
     font-size: 14px;
     outline: transparent;
-    transition: fill 250ms linear;
 }
 
 .modal-input:focus,
@@ -939,23 +1017,6 @@ body{
 
 
 }
-
-/* .check-text::before{
-    content: '';
-    width: 16px;
-    height: 15px;
-    border: 2px solid #212121;
-    border-radius: 3px;
-    margin-right: 7px;
-}
-
-.input-check:checked + .check-text::before{
-    background-color: #2196F3;
-    border: transparent;
-    background-image: url(../images/vector.svg);
-    background-repeat: no-repeat;
-} */
-
 
 /* java */
 
