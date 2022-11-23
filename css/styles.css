@@ -746,10 +746,7 @@ body{
 }
 
 .footer-button {
-    width: 200px;
-    height: 50px;
-    
-    padding: 0;
+    padding: 10px 28px;
     margin: 0 auto;
     display: block;
     
@@ -924,10 +921,7 @@ body{
 }
 
 .modal-button{
-    width: 200px;
-    height: 50px;
-    
-    padding: 0;
+    padding: 10px 52px;
     margin: 0 auto;
     display: block;
     
